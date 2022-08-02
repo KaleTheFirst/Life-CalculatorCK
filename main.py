@@ -1,2 +1,2 @@
 #LIFE CALCULATOR
-print("HI CHANTEL")
+print(" chantel was here")
