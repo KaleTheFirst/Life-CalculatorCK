@@ -4,6 +4,17 @@ worktime = ""
 tasks = []
 traveltime = ""
 fulltime=""
+
+import time
+from datetime import datetime, timedelta
+#datetime.now()
+#datetime.datetime(2022, 8, 4, 14, 32, 11, 343857)
+a = datetime(2022, 8, 4, 8)
+print(a)
+newtime= a-timedelta(minutes=20)
+print(newtime)
+#datetime.datetime(1999, 12, 12, 7, 40)
+
 worktime = int(input("What time do you have to get to work for? Ex. ('8')>>>"))
 worktime = worktime
 print(f"You have to be at work for {worktime}:00")
@@ -30,6 +41,9 @@ for x in tasks:
 print(each_time)
 fulltime= total_time + traveltime
 print(f"The total time for you to get ready and get to work is {fulltime} minutes" )
+
+
+
 
 print("------------------------------")
 print("This is your agenda for the day")
